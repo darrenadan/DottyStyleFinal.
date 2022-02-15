@@ -24,7 +24,7 @@ html::-webkit-scrollbar-thumb{background:var(--yellow);}
 .header ul li a.download:hover{ background-color: #f5b91f; color:white;}
 
 /*SECTION ONE*/
-#section01{background-image: url(../images/Boat.png); height:1377px; background-position: center center;  background-repeat: no-repeat;  position:relative;  background-size: cover;max-width: 1600px; width:100%; margin:0 auto;min-height:100vh;}
+#section01{background-image: url(../Boat.png); height:1377px; background-position: center center;  background-repeat: no-repeat;  position:relative;  background-size: cover;max-width: 1600px; width:100%; margin:0 auto;min-height:100vh;}
 .sectionOne-content{position: absolute;top:16.25rem;left:4.75rem;}
 .the{margin-left:9.125rem ;font-size:2rem;color:#fbf9f3;letter-spacing: 10px;line-height: 50px;}
 .whitsundays{font-family: 'Open Sans', sans-serif;font-size: 3.125rem;color:#fbf9f3;line-height: 75px;}
