@@ -1,0 +1,123 @@
+:root{
+  --yellow:#F7CA3E;
+}
+*  {     font-family: 'Open Sans', sans-serif; margin: 0; padding: 0;box-sizing: border-box; text-decoration: none;outline: none; border: none; transition:all .2s linear; }
+ .wrap  { max-width: 1600px; width: 100%; margin: 0 auto;}
+section  { min-height: 100vh;}
+html::-webkit-scrollbar{width:1.2rem;}
+html::-webkit-scrollbar-track{background:#333;}
+html::-webkit-scrollbar-thumb{background:var(--yellow);}
+
+  /*Header section*/
+  .header{position:fixed; z-index: 10000; width:100%;}
+ .header ul {display: flex; justify-content: center; align-items: center;list-style: none; background-color: #333333; height:70px ; flex-wrap: wrap;}
+ .header ul li a{font-size: 14px; color:#ffff;}
+ .polygon{width:13x;padding: 11px 13px 8px 12px;background-color: #282727;border-width: 1px;border-radius: 6px;margin-right: 50px;}
+ a.background{padding: 17px 23px 17px 3px; border-left: 1px solid #484848;}
+ a.solution{padding: 17px 21px 17px 10px; border-left: 1px solid #484848;}
+ a.result{padding: 17px 16px 17px 12px; border-left: 1px solid #484848;}
+ a.slide{padding: 17px 167px 17px 17px; border-left: 1px solid #484848;}
+.downloadIcon{margin-right: 10px;}
+.download{font-size: 12px;padding:12px 17px;background-color: #282727;border-radius:6px;}
+.polygon:hover{background-color:  #f5b91f;}
+.header ul li a:hover{ color: #f5b91f; border-color:#484848;}
+.header ul li a.download:hover{ background-color: #f5b91f; color:white;}
+
+/*SECTION ONE*/
+#section01{background-image: url(../images/Boat.png); height:1377px; background-position: center center;  background-repeat: no-repeat;  position:relative;  background-size: cover;max-width: 1600px; width:100%; margin:0 auto;min-height:100vh;}
+.sectionOne-content{position: absolute;top:16.25rem;left:4.75rem;}
+.the{margin-left:9.125rem ;font-size:2rem;color:#fbf9f3;letter-spacing: 10px;line-height: 50px;}
+.whitsundays{font-family: 'Open Sans', sans-serif;font-size: 3.125rem;color:#fbf9f3;line-height: 75px;}
+.tagline{font-size:1.1875rem;color:#fbf9f3;letter-spacing: 2.5px;font-family: 'Open Sans', sans-serif;line-height:20px;}
+
+                 /*Jake and Mystery Girl*/
+.mysteryWoman { position:absolute; top:10.1%;right:6rem;  width:28%; opacity:.8;height:450px;}
+.jake{position:absolute;  top:13%;  left:53.5%;  width:20%;  opacity:.6;}
+.play{margin-left:45%;  padding: 40px;  border-color: white;  border-style: solid; border-width: 5px;border-radius: 50%; position: absolute;top:19%;right:46%;z-index: 1000;}
+.play:hover{background-color:  #f5b91f;}
+
+
+/*SECTION TWO*/
+#section02{position: relative;margin:0 auto;min-height: 100vh;}
+#section02 img{  height: 513px;max-width:1600px;width:100%;margin-top: 870px;}
+.bannerTwo{position: absolute;top:1038px;left:3rem;}
+.theTwo{padding-left: 190px;  font-size:27px;  color:#f5f0e0;  letter-spacing: 10px; }
+.whitsundaysTwo{font-family: 'Open Sans', sans-serif;padding-left:62px;  font-size: 45px;  color:#f5f0e0;}
+.taglineTwo{padding-left: 52px; font-size:14px; color:#f5f0e0; letter-spacing: 4.4px;}
+.sectionTwoContent{width:490px;position:absolute;right:250px;color:white;font-family: 'Open Sans', sans-serif;top:890px}
+.sectionTwoContent h2{padding-bottom: 15px;font-size:3.125rem;font-weight: 400;}
+.sectionTwoContent p{ padding-bottom: 45px;}
+.sectionTwoContent span{font-size:3.125rem;font-weight: normal;}
+#boldBackground{position: absolute;
+top:720px;}
+
+
+
+/*SECTION THREE*/
+
+#section03{  position: relative;margin: 0 auto;min-height: 100vh;}
+.sec3Background{  position:relative;  width:100%;  display: flex;justify-content: center;}
+.secthree{    height:1752px;    max-width:1600px;    width:100%;    top: 20%;bottom:0;left:0;right:0;margin: 0 auto;}
+.paragraph{    position: absolute;   color:white;left:0;top:24%;   right:0;   bottom:0;}
+.solutionTwo span{   position: absolute;   font-size:50px;   font-weight: normal;   color: white;   top:15%;  bottom:0; width:100%; display: flex; justify-content: center;}
+.paragraph{  display: inline-flex;    max-width:930px;    height:350px;  margin: 0 auto;  text-align: justify;}
+.rightParagraph{width:435px;  margin-left: 7%;}
+#middleParagraph{   font-weight: normal;   font-size: 25px;}
+.leftParagraph{ width:435px;}
+#solutionId{ width:.1px;}
+
+
+/*Section 4.....................................................................................................................................*/
+.secFourBackground{position: relative;text-decoration-color: white; margin:0 auto; width:100%;height:100vh; position:relative;}
+.secFour{height:100vh;max-width:1600px;width:100%;margin:0 auto;position: absolute;bottom:20%; }
+span{font-size: 2.5rem;}
+.blueSection{height:787px;max-width:1600px;width:100%;margin:0 auto;position: absolute;bottom:0%;}
+.lastNav{ position: absolute; column-count: 5; text-align:center; bottom:560px; left: 480px; color: white; margin:0 auto;}
+.lastNav a{ text-decoration: none; color:white; font-size:14px;}
+.lastNavigation{ padding:2px 4px; border-style: none; border-radius: 6px;}
+.lastNavigation:hover{background-color: #0b4879;}
+#longPicOne{position: absolute;width:730px;height:430px;}
+#longPicTwo{position: absolute;width:730px;height:430px}
+
+            /*Owl Carousel*/
+.writingPic{position: absolute;width:530px;height:430px;}
+.jquery{max-width:700px;margin:0 auto;padding: 5 rem .5rem;position:absolute;left:-35%;bottom:-2300%;text-align: center;}
+.jquery .owl-carousel img{position: relative;margin:0 auto;}
+.rad{cursor:pointer;}
+.lastContent{ position: relative; text-align: justify;margin:0 auto;}
+.videoSection{position: absolute;width:55%;text-align: justify;left:550px;top: 68px;display:block;}
+.videoSection h3{padding-bottom: 70px;font-weight: 1;font-size:2rem;}
+.photographySection{position: absolute;width:55%;text-align: justify;display:none;left:550px;top: 68px;}
+.photographySection h3{padding-bottom: 70px;font-weight: 1;font-size:2rem;}
+.socialSection{position: absolute;width:55%;text-align: justify;display:none;left:550px;top: 68px;}
+.socialSection h3{padding-bottom: 70px;font-weight: 1;font-size:2rem;}
+.prSection{position: absolute;width:55%;text-align: justify;display:none;left:550px;top: 68px;}
+.prSection h3{ padding-bottom: 70px; font-weight: 1; font-size:2rem;}
+.radioSection{position: absolute;width:55%;text-align: justify;display:none;left:550px;top: 68px;}
+.radioSection h3{ padding-bottom: 70px; font-weight: 1; font-size:2rem;}
+.circle{margin-left:45%;padding: 40px 40px 40px 50px;border-color: white;border-style: solid;border-width: 5px;border-radius: 50%;position: absolute;top:130px;}
+.circle:hover{background-color:  #f5b91f;}
+        
+  /*view project button*/
+ .viewProject-button{position:absolute;bottom:5.6%;right:20%;}
+ .viewProject-button a:hover{background-color: #f5b91f;}
+ .viewProject-button a{padding:20px 50px;background-color:#0495e1;border-radius: 10px; color:white; }
+       
+ /* use hr tag to control the spacing when the nav menu in section1 is clicked   */
+#boldBackground{bottom:100px;position: relative;color:black;height:1px;width:.01px;border: none;}
+#solutionId{top:100px;position: relative;color:black;height:.01px;width:.01px;border: none;;}
+span{font-size:40px;}
+.backgroundContent h2{font-weight: normal;}
+.owl-video{position:relative;}
+#section04{margin: 0 auto;}
+
+  /*Vertical  Dot Navigation*/
+.verticalNav ul li{list-style-type: none;       }      
+.verticalNav .nav__dot { display: none;      }
+.verticalNav .nav__dot { display: block;  position: fixed;  top: calc(60% - 125px);right: 30px;z-index: 3; }
+.verticalNav .nav__dot li { width: 15px; height: 15px; margin: 0 0 30px; background:   white; border-radius: 50%; cursor: pointer; transition: background 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;}
+.verticalNav .nav__dot li.current { background:#f5b91f; transition: background 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;}
+.verticalNav .nav__dot li:last-child { margin: 0;} 
+    
+
+
